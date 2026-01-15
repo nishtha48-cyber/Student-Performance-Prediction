@@ -25,46 +25,37 @@ Statistics: SciPy (t-tests)
 
 📊 Workflow
 
-Data Cleaning & Preprocessing:
+1) Data Cleaning & Preprocessing:
 
-Handled categorical data using One-Hot Encoding (nominal) and Label Encoding (ordinal).
+  Handled categorical data using One-Hot Encoding (nominal) and Label Encoding (ordinal).
 
-Treated outliers using the Interquartile Range (IQR) technique.
+  Treated outliers using the Interquartile Range (IQR) technique.
 
-Normalized features using StandardScaler to ensure equal contribution to the model.
+  Normalized features using StandardScaler to ensure equal contribution to the model.
 
-Exploratory Data Analysis (EDA):
+2) Exploratory Data Analysis (EDA):
 
-Created histograms, boxplots, and violin plots to understand distributions.
+  Created histograms, boxplots, and violin plots to understand distributions.
 
-Generated a Correlation Heatmap to identify relationships between variables.
+  Generated a Correlation Heatmap to identify relationships between variables.
 
-Hypothesis Testing:
+3) Hypothesis Testing:
 
-Performed an independent samples t-test to statistically prove the impact of test preparation courses on student outcomes.
+  Performed an independent samples t-test to statistically prove the impact of test preparation courses on student outcomes.
 
-Predictive Modeling:
+4) Predictive Modeling:
 
-Developed a Linear Regression model to predict Math scores based on reading/writing performance and demographic factors.
+  Developed a Linear Regression model to predict Math scores based on reading/writing performance and demographic factors.
 
-Evaluated the model using R-squared, RMSE, and MAE.
+  Evaluated the model using R-squared, RMSE, and MAE.
 
 💡 Key Insights
 
-Holistic Ability: There is a very strong correlation (
-𝑅
->
-0.80
-R>0.80
-) between math, reading, and writing scores.
+Holistic Ability: There is a very strong correlation ( R>0.80 ) between math, reading, and writing scores.
 
 Socio-economic Impact: Students with standard lunch types consistently outperformed those with free/reduced lunch.
 
-Test Prep works: Statistical testing (p-value 
-<
-0.05
-<0.05
-) confirmed that completing a test prep course significantly boosts math scores.
+Test Prep works: Statistical testing (p-value  < 0.05) confirmed that completing a test prep course significantly boosts math scores.
 
 Parental Influence: A positive correlation exists between parental education levels and student performance.
 
