@@ -5,11 +5,11 @@ Student Achievement Trends: Analysis & Prediction
 
 This project explores the factors influencing students' academic performance using a dataset of 1,000 records. It involves a full data science pipeline, from exploratory data analysis (EDA) and statistical hypothesis testing to building a predictive model for mathematics scores.
 
-📌 Project Objective
+## 📌 Project Objective
 
 The goal of this project is to understand how demographic and socio-economic attributes—such as gender, parental education, lunch type, and test preparation—impact student scores in Math, Reading, and Writing.
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 Language: Python
 
@@ -23,7 +23,7 @@ Machine Learning: Scikit-Learn (Linear Regression)
 
 Statistics: SciPy (t-tests)
 
-📊 Workflow
+## 📊 Workflow
 
 1) Data Cleaning & Preprocessing:
 
@@ -49,7 +49,7 @@ Statistics: SciPy (t-tests)
 
   Evaluated the model using R-squared, RMSE, and MAE.
 
-💡 Key Insights
+## 💡 Key Insights
 
 Holistic Ability: There is a very strong correlation ( R>0.80 ) between math, reading, and writing scores.
 
@@ -59,7 +59,7 @@ Test Prep works: Statistical testing (p-value  < 0.05) confirmed that completing
 
 Parental Influence: A positive correlation exists between parental education levels and student performance.
 
-📂 Dataset
+## 📂 Dataset
 
 The dataset StudentsPerformance.csv was sourced from Kaggle. It contains 1,000 records with 8 attributes.
 
